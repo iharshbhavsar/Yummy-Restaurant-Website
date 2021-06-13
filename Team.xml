@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<teammembers>
+    <person>
+        <imglink>images/chef-1.jpg</imglink>
+        <name>Akis Petretzikis</name>
+        <bio>At present Akis Petretzikis has his own cookery show at MEGA channel. He is also a food consultant for many five star hotels/restaurants spread all across the world. He has also authored cookbooks like – Menu by Akis Petretzikis and You should try this </bio>
+    </person>
+    <person>
+        <imglink>images/chef-2.jpg</imglink>
+        <name>Vikas Khanna</name>
+        <bio>Khanna’s cooking skills are known to impress one and all but he is also admired the world over for his good looks. In a poll conducted by the Eater Blog, he was voted to be “New York’s Hottest Chef” in 2011 and 2012. The People magazine in 2011 named him among the “Sexiest Men Alive</bio>
+    </person>
+    <person>
+        <imglink>images/chef-3.jpg</imglink>
+        <name>Stuart O'Keeffe</name>
+        <bio>A trained Chef, O’Keeffe pursued BA in Culinary Arts from Dublin Institute of Technology. Right after graduation he travelled through Europe and finally moved to France where he learned high-end French cuisine and cooking, by working in a small restaurant.</bio>
+    </person>
+</teammembers>

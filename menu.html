@@ -1,0 +1,214 @@
+<!--created by Divya Vedant(Group-c)-->
+<!doctype html>
+<html>
+    <head>
+        <title>Yummy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width" initial-scale=1.0">
+        <link rel="stylesheet" href="css/home2.css">
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body style="background-image: initial;">
+        <header>
+            
+            
+            <div id="text">
+                <p><span>HUNGRY?!</span><br>GOOD,we are here<br> to <span>serve</span> you</p>
+            </div>
+            
+        </header>
+        <nav>
+            <img src="images/logo_white.png" alt="LOGO">
+<!--
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu Card</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+
+            </ul>
+-->
+            <a href="Aboutus.html">About Us</a> 
+            <a href="menu.html">Menu Card</a>
+            <a href="index.html">Home</a>
+        </nav>
+        
+		<!-- Menu div -->
+		<div>
+			<h1>Our Menus</h1>
+			<div class="divLinks">
+				<a href="javascript:void(0);" class="lnkActive" id="lnkAll" onclick="ShowMenus('all')">All</a>
+				<a href="javascript:void(0);" id="lnkPizza" onclick="ShowMenus('divPizza')">Pizza</a>
+				<a href="javascript:void(0);" id="lnkMainDishies" onclick="ShowMenus('divMainDishies')">Main Dishies</a>
+				<a href="javascript:void(0);" id="lnkDoughnuts" onclick="ShowMenus('divDoughnuts')">Doughnuts</a>
+			</div>
+			<div class="row menus divPizza">
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Pizza</span>
+				<img src="images/p1.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">Secret stash</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $7.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Pizza</span>
+				<img src="images/p2.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">New york</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $5.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Pizza</span>
+				<img src="images/p3.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">potato caboose</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $4.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Pizza</span>
+				<img src="images/pizza.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">Secret stash</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $7.6</span>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="row menus divMainDishies">
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Main Dishies</span>
+				<img src="images/di1.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">Lasagna</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $5.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Main Dishies</span>
+				<img src="images/di2.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">Macaroni and Cheese</span>
+					<span class="spanMenuType">sweet</span>
+					<span class="spanMenuPrice">Price : $6.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Main Dishies</span>
+				<img src="images/di3.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">Casseroles</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $9.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Main Dishies</span>
+				<img src="images/di4.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">Meatloaf</span>
+					<span class="spanMenuType">spicy</span>
+					<span class="spanMenuPrice">Price : $9.6</span>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="row menus divDoughnuts">
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Doughnuts</span>
+				<img src="images/d1.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">pink doughnut</span>
+					<span class="spanMenuType">sweet</span>
+					<span class="spanMenuPrice">Price : $5.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Doughnuts</span>
+				<img src="images/d2.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">chocolate doughnuts</span>
+					<span class="spanMenuType">sweet</span>
+					<span class="spanMenuPrice">Price : $2.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Doughnuts</span>
+				<img src="images/d3.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">king doughnuts</span>
+					<span class="spanMenuType">sweet</span>
+					<span class="spanMenuPrice">Price : $5.6</span>
+				</div>
+			  </div>
+			  <div class="column hover-shadow">
+				<span class="spanMenu">Doughnuts</span>
+				<img src="images/d3.jpg" />
+				<div class="divSubDetail">
+					<span class="spanMenuName">king doughnuts</span>
+					<span class="spanMenuType">sweet</span>
+					<span class="spanMenuPrice">Price : $5.6</span>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<!-- Gallery div -->
+		<div>
+			<h1>Our Gallery</h1>
+			<div class="row" id="divGalleryImages" style="color: black;text-align: center;">
+			  
+			</div>
+		</div>
+
+		<div id="myModal" class="modal">
+		  <span class="close cursor" onclick="closeModal()">&times;</span>
+		  <div class="modal-content">
+
+			<div id="divGalleryPopupImages">
+				
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)" style="left: -50px;">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)" style="right: -50px;">&#10095;</a>
+
+		  </div>
+		</div>
+		
+        <footer>
+            <div>
+                <table cellspacing="0">
+                    <tr>
+                        
+                        <td class="footerimage" rowspan="2"><img  src="images/logo_white.png" height="70px" width="200px" ></td>
+                        <td class="footercontent"><img  src="images/phone%20icon.jpg" height="70px" width="70px" ></td>
+                        <td class="footercontent"><img  src="images/location.jpg" height="70px" width="70px" ></td>
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td class="footercontent">Office<br>9658714566<br>Mobile<br>8677914768</td>
+                        <td class="footercontent">27 East 55th Street, Midtown East, New York, NY 10022, United States of America.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="copyright">
+                <span class="copytext">Copyright &copy; 2018 Yummy.All rights reserved</span>
+                <div class="links">
+                    <img src="images/insta.png" alt="Facebook" height="30px" width="30px">
+                    <img src="images/facebook_logos_PNG19754.png" alt="instagram" height="30px" width="30px">
+                    <img src="images/youtube-logo-png-images-vector-and-psd-files-30.png" alt="twitter" height="30px" width="30px">
+                </div>                
+            </div>               
+        </footer>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/script.js"></script>
+    </body>
+</html>

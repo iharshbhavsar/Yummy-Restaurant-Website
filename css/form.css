@@ -1,0 +1,79 @@
+#name{
+	width:50%;
+	height:3em;
+	border:1px solid lightgrey;
+	padding-left:1.5%;
+}
+#email{
+	width:50%;
+	height:3em;
+	border:1px solid lightgrey;
+	padding-left:1.5%;
+	margin-bottom:4%;
+}
+#ratings{
+	width:20%;
+	height:3em;
+	border:1px solid lightgrey;
+	padding-left:1.5%;
+}
+#experience{
+	width:50%;
+	height:8em;
+	border:1px solid lightgrey;
+	padding-left:1.5%;
+	padding-top:1em;
+}
+#formspanexprnce{
+	font-size:1.2em;
+margin-left:15px;
+
+	
+}
+#formspanname{
+	font-size:1.2em;
+	margin-left:15px;
+}
+#formspanemail{
+	font-size:1.2em;
+	margin-left:15px;
+}
+#ratings{
+	margin-bottom:5%;
+	margin-top:1.5%;
+	margin-left:0;
+}
+#submit{
+	height:40px;
+	width:130px;
+	font-size:1em;
+	margin-bottom:8%;
+}
+form{
+	border:1px solid lightgrey;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:lightgrey;
+	text-align:left;
+	padding-left:15%;
+}
+form h2{
+	margin-top:8%;
+	text-align:left;
+	padding-left:15%;
+	
+}
+#chefh1{
+	margin-top:6%;
+	padding-top:1%;
+	margin-bottom:4%;
+}
+.desktop{
+	margin-bottom:6%;
+}
+#ourteam{
+	margin-top:6%;
+	margin-bottom:4%;
+	font-size:2.4em;
+}
